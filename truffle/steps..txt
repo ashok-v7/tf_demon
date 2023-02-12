@@ -1,1 +1,27 @@
-Mnemonic: into science boat clever lesson coyote diagram inhale swap day expand oyste
+> create a folder
+> npm install -g truffle
+> truffle version
+akv@akv-Inspiron-3576:~/Documents/tf_demo/truffle_demo$ truffle version
+Truffle v5.7.6 (core: 5.7.6)
+Ganache v7.7.3
+Solidity v0.5.16 (solc-js)
+Node v16.16.0
+Web3.js v1.8.2
+
+// Install Truffle for VS Code plugin  after installing truffle logo gets in left bar
+
+> Click on truffle logo >  'Networks' > 'Create a new network' > select 'Ganache service' -> start the service 
+
+> truffle init ( start a truffle project)
+> truffle create contract <contract name>
+> truffle test
+ 
+// deployment
+
+> truffle develop
+> migrate --reset
+
+
+1) Creating a smart contract ( write sc in contracts folder)
+2) Testing it. (wtite test scripts in test folder)
+3) Deploy it on a Ganache Test Network.
